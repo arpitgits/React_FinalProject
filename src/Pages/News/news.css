@@ -1,0 +1,92 @@
+.newsPageBox{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex: 2 1;
+    justify-content: space-between;
+
+}
+.sideBar {
+	width: 35%;
+	height: 100%;
+}
+.sideBar {
+
+	width: 35%;
+	height: 100%;
+}
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+.newsPageBox .News {
+	width: 100%;
+	height: 400px;
+}
+
+.newsPageBox .Tenders{
+	width: 100%;
+	height: 400px;
+}
+
+.newContentBox{
+    width: 100%;
+}
+.newscard{
+    width: 800px;
+    min-height: 180px;
+    background-color: rgba(231, 231, 231, 0.442);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+
+.newscard button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5F7EE;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--green);
+    border: solid 1px var(--green);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.newscard button:hover{
+    background-color: rgb(13, 0, 110);
+    color: white;
+    border: solid 1px var(--green);
+}
+.newstitle{
+    font-size: 18px;
+    padding: 10px 14px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    color: black;
+}
+.newstitle:hover{
+    color: var(--green);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 22px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 1px 22px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 1px 22px 0px rgba(0, 0, 0, 0.7);
+	position: relative;
+}
+.newscontent{
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+a{
+    text-decoration: none;
+}

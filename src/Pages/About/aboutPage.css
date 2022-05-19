@@ -1,0 +1,66 @@
+.AboutBox {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	flex: 2 1;
+	height: 100%;
+}
+p{
+	text-align: justify;
+}
+.aboutTextt{
+	margin-right: 20px;
+}
+.aboutImgg{
+	height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.aboutImgg img{
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	object-fit: cover;
+}
+.aboutContent {
+
+	width: 65%;
+	height: 100%;
+}
+.aboutTitle{
+	display: flex;
+}
+.aboutTitle  h1 {
+    font-size: 24px;
+    margin-left: 5px;
+	color: var(--green);
+}
+.aboutTitle  h1:hover {
+	color: #09ab4a;
+}
+
+.sideBar {
+
+	width: 35%;
+	height: 100%;
+}
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+.AboutBox .News {
+	width: 100%;
+	height: 400px;
+}
+
+.AboutBox .Tenders{
+	width: 100%;
+	height: 400px;
+}
+
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */

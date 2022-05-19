@@ -1,0 +1,52 @@
+.HistoryBox {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	flex: 2 1;
+	height: 100%;
+}
+.historyTitle{
+	display: flex;
+}
+.historyTitle  h1 {
+    font-size: 24px;
+    margin-left: 5px;
+	color: var(--green);
+}
+.historyTitle  h1:hover {
+	color: #09ab4a;
+}
+p{
+	text-align: justify;
+}
+.historyText{
+	margin-right: 20px;
+}
+.HistoryContent {
+
+	width: 65%;
+	height: 100%;
+}
+
+.sideBar {
+
+	width: 35%;
+	height: 100%;
+}
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+.HistoryBox .News {
+	width: 100%;
+	height: 400px;
+}
+
+.HistoryBox .Tenders{
+	width: 100%;
+	height: 400px;
+}
+
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */

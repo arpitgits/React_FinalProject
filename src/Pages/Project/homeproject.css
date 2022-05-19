@@ -1,0 +1,131 @@
+.ProjectBox {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	flex: 2 1;
+	height: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+.container {
+	margin-right: 20px;
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 15px;
+	column-gap: 15px;
+}
+
+.item {
+	background-color: white;
+	height: 300px;
+	width: 100%;
+	box-shadow: 0px 1px 22px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 1px 22px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 1px 22px 0px rgba(0, 0, 0, 0.15);
+	position: relative;
+	border-radius: 10px;
+}
+
+.projectContent {
+	width: 65%;
+	height: 100%;
+}
+
+.ankk {
+	margin-right: 20px;
+}
+
+.item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.date {
+	display: flex;
+	flex-direction: row;
+	font-size: 13px;
+	margin-bottom: 6px;
+	color: rgb(255, 255, 255);
+	margin-left: 2px;
+}
+
+.date p {
+	padding: 0;
+	margin: 0;
+	margin-left: 4px;
+}
+
+.projectheading {
+	bottom: 0;
+	height: 70px;
+	background-color: #e5f7ee5d;
+	width: 100%;
+	position: absolute;
+	color: #E5F7EE;
+	padding-top: 5px;
+}
+
+.projectheading a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+}
+
+.projectheading a:hover {
+	color: white;
+	font-size: 16px;
+}
+
+.projectheading h4 {
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.projectTitle {
+	display: flex;
+}
+
+.projectTitle h1 {
+	font-size: 24px;
+	margin-left: 5px;
+	color: var(--green);
+}
+
+.projectTitle h1:hover {
+	color: #09ab4a;
+}
+
+.sideBar {
+
+	width: 35%;
+	height: 100%;
+}
+
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+.ProjectBox .News {
+	width: 100%;
+	height: 400px;
+}
+
+.ProjectBox .Tenders {
+	width: 100%;
+	height: 400px;
+}
+
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */
+/* ------------------------------------------------------News-Tenders-------------------------------------------  */

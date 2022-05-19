@@ -1,0 +1,153 @@
+.newsBox {
+    width: 100%;
+    height: 60vh;
+    margin-top: 40px;
+    display: flex;
+    background-color: #E5F7EE;
+}
+
+.newstenderBox {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.News {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsTitle {
+    width: 60%;
+    border-bottom: 3px solid var(--green);
+}
+
+.newsDisc {
+    height: 100%;
+    border: 2px solid rgb(157, 157, 157);
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 1px 4px 0px rgba(89, 89, 89, 0.75);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(89, 89, 89, 0.75);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(89, 89, 89, 0.75);
+}
+
+.News h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.Tenders {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tendersTitle {
+    width: 60%;
+    border-bottom: 3px solid var(--green);
+}
+
+.tendersDisc {
+    box-shadow: 0px 1px 4px 0px rgba(89, 89, 89, 0.75);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(89, 89, 89, 0.75);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(89, 89, 89, 0.75);
+    height: 100%;
+    border: 2px solid rgb(157, 157, 157);
+    width: 100%;
+    position: relative;
+}
+
+.Tenders h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsDisc button {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5F7EE;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--green);
+    border: solid 1px var(--green);
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+
+}
+
+.tendersDisc button {
+    /* float: right;
+    margin-right: 20px; */
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5F7EE;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--green);
+    border: solid 1px var(--green);
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+
+
+.tendersDisc button:hover {
+    background-color: rgb(13, 0, 110);
+    color: white;
+    border: solid 1px var(--green);
+}
+
+.tendersDisc ul li {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+
+.tendersDisc ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsDisc button:hover {
+    background-color: rgb(13, 0, 110);
+    color: white;
+    border: solid 1px var(--green);
+}
+
+.newsDisc ul li {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.newsDisc ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.tendersDisc ul li p:hover {
+    color: var(--green);
+}
+
+.newsDisc ul{
+    padding-right: 10px;
+}
+.tendersDisc ul{
+    padding-right: 10px;
+}
+.newsDisc ul li p:hover {
+    color: var(--green);
+}
