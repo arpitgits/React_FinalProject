@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_pages",
+  "info": {
+    "singularName": "partner-page",
+    "pluralName": "partner-pages",
+    "displayName": "PartnerPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partnercontent": {
+      "type": "richtext"
+    }
+  }
+}

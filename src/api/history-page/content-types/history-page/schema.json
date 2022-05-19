@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_pages",
+  "info": {
+    "singularName": "history-page",
+    "pluralName": "history-pages",
+    "displayName": "HistoryPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "historycontent": {
+      "type": "richtext"
+    },
+    "pdffile": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

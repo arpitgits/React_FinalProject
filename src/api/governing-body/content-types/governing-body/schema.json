@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "governing_bodies",
+  "info": {
+    "singularName": "governing-body",
+    "pluralName": "governing-bodies",
+    "displayName": "GoverningBody"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "department": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "string"
+    }
+  }
+}
